@@ -65,7 +65,7 @@ ORBIT is an intelligent weather planning application that uses 30 years of NASA 
 1. **Clone the repository**
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/mahmoude4477/orbit
 cd orbitv1
 ```
 
