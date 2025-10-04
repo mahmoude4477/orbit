@@ -225,8 +225,8 @@ export default function ChatPage() {
               </Button>
             </form>
             <p className="text-xs text-muted-foreground mt-2 text-center">
-              Example: "What's the weather like in Cairo (30.04, 31.24) on June
-              15, 2026?"
+              Example: &quot;What&apos;s the weather like in Cairo (30.04,
+              31.24) on June 15, 2026?&quot;
             </p>
           </CardContent>
         </Card>

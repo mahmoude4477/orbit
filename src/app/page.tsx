@@ -70,7 +70,7 @@ export default function Home() {
 
           {/* Tagline */}
           <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Plan for Tomorrow's Weather with Yesterday's Data
+            Plan for Tomorrow&apos;s Weather with Yesterday&apos;s Data
           </h2>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
