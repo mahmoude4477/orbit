@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import {
   ArrowLeft,
@@ -63,7 +63,7 @@ interface WeatherData {
   };
 }
 
-export default function ResultsPage() {
+function ResultsPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
@@ -773,5 +773,24 @@ export default function ResultsPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function ResultsPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950">
+          <Card className="w-96">
+            <CardContent className="pt-6 flex flex-col items-center gap-4">
+              <Loader2 className="h-12 w-12 animate-spin text-primary" />
+              <p className="text-lg font-medium">Loading...</p>
+            </CardContent>
+          </Card>
+        </div>
+      }
+    >
+      <ResultsPageContent />
+    </Suspense>
   );
 }
