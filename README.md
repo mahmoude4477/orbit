@@ -4,10 +4,18 @@
 
 ORBIT is an intelligent weather planning application that uses 30 years of NASA historical weather data (1995-2025) to help you make informed decisions about your future events. Whether you're planning a wedding, vacation, or outdoor event, ORBIT provides probability-based weather forecasts using historical patterns.
 
-![ORBIT](https://img.shields.io/badge/Next.js-15.5.4-black?style=for-the-badge&logo=next.js)
-![React](https://img.shields.io/badge/React-19.1.0-blue?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwind-css)
+[![ORBIT](https://img.shields.io/badge/Next.js-15.5.4-black?style=for-the-badge&logo=next.js)](https://orbit-o.vercel.app/)
+[![React](https://img.shields.io/badge/React-19.1.0-blue?style=for-the-badge&logo=react)](https://orbit-o.vercel.app/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://orbit-o.vercel.app/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwind-css)](https://orbit-o.vercel.app/)
+
+<div align="center">
+
+### 🚀 [**Try ORBIT Live**](https://orbit-o.vercel.app/) 🚀
+
+[![Deploy](https://img.shields.io/badge/Live%20Demo-orbit--o.vercel.app-00C7B7?style=for-the-badge&logo=vercel)](https://orbit-o.vercel.app/)
+
+</div>
 
 ---
 
